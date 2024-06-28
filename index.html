@@ -1,9 +1,9 @@
 <html>
     <head>
-        <link rel="stylesheet" href="/Calculator/style.css">
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="manifest" href="/Calculator/manifest.json">
+        <link rel="manifest" href="/manifest.webmanifest">
     </head>
     <body>
         <div class = "container">
@@ -25,18 +25,20 @@
 
                 <div class="cal-btn0">
                     
-                    <button onclick="appendToDisplay('4')" class="percent" >%</button>
+                    <button onclick="appendToDisplay('%')" class="percent" >%</button>
                     <button onclick="appendToDisplay('7')" class="number2" >7</button>
                     <button onclick="appendToDisplay('4')" class="number3" >4</button>
                     <button onclick="appendToDisplay('1')" class="number4" >1</button>
-                    <button onclick="calculate()"  >=</button>
+                    <button onclick="appendToDisplay('.')" class="number0">.</button>
+                    
                 </div>    
                     
                 <div class="cal-btn1">
-                    <button onclick="appendToDisplay('()')" class="number5" >()</button>
+                    <button onclick="backSpace()" id="rst-btn1" >C</button>
                     <button onclick="appendToDisplay('8')" class="number6">8</button>
                     <button onclick="appendToDisplay('5')" class="number7">5</button>
                     <button onclick="appendToDisplay('2')" class="number8">2</button>
+                    <button onclick="appendToDisplay('()')">()</button>
                 
                 </div>
 
@@ -45,7 +47,8 @@
                     <button onclick="appendToDisplay('%')" class="number9"><strong>9</strong></button>
                     <button onclick="appendToDisplay('6')" class="number9">6</button>
                     <button onclick="appendToDisplay('3')" class="number0">3</button>
-                    <button onclick="appendToDisplay('.')" class="number0">.</button>
+                    <button onclick="calculate()">=</button>
+                    
 
                     
                 </div>

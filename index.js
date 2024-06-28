@@ -4,18 +4,27 @@
 //:::::::::::: THIS WAS THE "+ - * %" PART , Now let focus on the Numbers :::::::::/
 
 //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::/
-// We chose the "const" for fixed values
+
 const display = document.getElementById("display");
-//Values to input
+
 function appendToDisplay(input){
     display.value += input;
-}
 
-// Its time to clear our screen
+}
+// Clear display by clicking AC button
 function clearDisplay (){
     display.value = ""
+
 }
-// Thanks to @BroCode Videos, it helped me alot.
+
+//Backspace for the purpose of one item delete
+function backSpace() {
+    const current_value = document.getElementById("display").value;
+    const new_value = current_value.slice(0, -1); // Remove the last character
+    document.getElementById("display").value = new_value;
+}
+
+// if anything doesnt work then show Error
 function calculate(){
     try {
          display.value = eval(display.value);
