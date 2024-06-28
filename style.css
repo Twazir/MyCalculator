@@ -94,13 +94,11 @@ button {
     margin-right: 50%;
  }
 
-
 .sum-btn {
     display: flex;
     justify-content: center;
     margin-top: -3%;
 }
-
 
 .container {
   border: 2px solid rgb(20, 19, 19);
