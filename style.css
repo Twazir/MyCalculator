@@ -1,0 +1,146 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 5rem;
+    background-image: url(calu1.png);
+    background-size: cover;
+    max-width: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+span {
+    font-size: 2rem;   
+}
+#display {
+    height: 50px;
+    width: 300px;
+    font-size: 1.5rem;
+    color: rgb(13, 14, 14);
+    padding: 4px 0 4px 0;
+    background-color: rgb(237, 236, 153);
+    border: 2px solid snow;
+    margin-left: -12%;
+    margin-right: auto;
+    
+}
+
+.span1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3.5rem;
+    height: 50px;
+    width: 400px;
+}
+
+#sum-el {
+    background: rgb(145, 235, 226);
+    border-radius: 15px;
+    margin-bottom: 50%;
+    margin-top: 5%;
+    font-size: 6rem;
+    padding-right: auto;
+    padding-left: auto;
+
+}
+
+button {
+    border:  2px solid rgb(7, 7, 7);
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn {
+   display: flex;
+   flex-wrap: unset;
+   margin-top: 50px;
+   margin-bottom: -50px;
+   font-size: 4rem;
+   font-weight: bolder;
+}
+
+
+.btn button:nth-child(1) {
+   background-color: rgb(144, 234, 171);
+}
+
+.btn button:nth-child(2) {
+    background-color: rgb(244, 147, 140);
+ }
+
+ .btn button:nth-child(3) {
+    background-color: rgb(118, 149, 245);
+ }
+
+ .btn button:nth-child(4) {
+    background-color: rgb(208, 137, 244);
+ }
+
+ .cal-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    margin-left: 50%;
+    margin-right: 50%;
+ }
+
+
+.sum-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+}
+
+
+.container {
+  border: 2px solid rgb(20, 19, 19);
+  border-radius: 10px;
+  width: 350px;
+  height: 540px;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: rgb(46, 47, 47);
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rst-btn {
+    background-color: rgb(52, 186, 161);
+}
+
+button:hover {
+    background-color: hsl(0, 71%, 78%);
+
+}
+
+button:active {
+    background-color: hsl(0, 9%, 91%);
+    
+}
+
+.btn button:nth-child(1):hover:active {
+    background-color: hsl(0, 9%, 91%);
+}
+
+.btn button:nth-child(2):hover:active {
+    background-color: hsl(0, 9%, 91%);
+}
+.btn button:nth-child(3):hover:active {
+    background-color: hsl(0, 9%, 91%);
+}
+
+.btn button:nth-child(4):hover:active {
+    background-color: hsl(0, 9%, 91%);
+}
