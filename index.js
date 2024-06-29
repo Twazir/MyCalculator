@@ -20,6 +20,7 @@ function clearDisplay (){
 //Backspace for the purpose of one item delete
 function backSpace() {
     const current_value = document.getElementById("display").value;
+    console.log (current_value)// To be sure
     const new_value = current_value.slice(0, -1); // Remove the last character
     document.getElementById("display").value = new_value;
 }
